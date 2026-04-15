@@ -33,7 +33,7 @@ class HashingService {
     }
 
     if (this.nodes.length === 0) {
-      throw new Error("No nodes available. Add a node first!");
+      throw new Error("No Nodes available. Add a node first!");
     }
 
     for (const node of this.nodes) {
