@@ -23,7 +23,7 @@ app.post("/add-server", (req, res) => {
     hashingService.addServer(serverName);
 
     res.json({
-      message: `✅ Server ${serverName} added successfully`,
+      message: `Server ${serverName} added successfully`,
       ring: hashingService.getRing(),
     });
   } catch (error) {
