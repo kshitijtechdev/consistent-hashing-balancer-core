@@ -49,7 +49,7 @@ router.post("/remove-node", (req, res) => {
 router.post("/reset", (req, res) => {
   try {
     hashingService.reset();
-    res.json({ message: "All nodes have been reset!" });
+    res.json({ message: "All Nodes have been Reset!" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
